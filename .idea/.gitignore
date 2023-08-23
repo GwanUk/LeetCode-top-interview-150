@@ -7,6 +7,23 @@
 /dataSources/
 /dataSources.local.xml
 
+### macOS template
+*.DS_Store
+.AppleDouble
+.LSOverride
+# IntelliJ project files
+.idea
+.idea/*.xml
+*.iml
+out
+gen
+build
+rebel.xml
+# Compliled files
+/target/
+**/target
+/example/
+
 # Compiled class file
 *.class
 
