@@ -52,9 +52,7 @@ class Solution {
             return;
         }
 
-        while (candies[target] <= candies[pre]) {
-            candies[target]++;
-        }
+        candies[target] = candies[pre] + 1;
 
         if (direction) {
             plusCandies(target - 1, range, direction);
