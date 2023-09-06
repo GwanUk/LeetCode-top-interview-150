@@ -1,8 +1,5 @@
 package minimum_absolute_difference_in_bst_530;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Given the root of a Binary Search Tree (BST), return the minimum absolute difference between the values of any two different nodes in the tree.
  * Definition for a binary tree node.
